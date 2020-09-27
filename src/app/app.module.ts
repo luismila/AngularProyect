@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { AccessDeniedComponent } from './components/access-denied/access-denied.component';
 import { ErrorComponent } from './components/error/error.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccessDeniedComponent,
-    ErrorComponent
+    ErrorComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
